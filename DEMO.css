@@ -1,0 +1,163 @@
+*body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #007ec8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    float:right;
+    position: absolute;  
+    top: 0;
+    right: 0;
+    margin: 120px;
+    padding: 25px;
+    
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.demo-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.demo-form input, .demo-form select, .demo-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.demo-form select {
+    appearance: none;
+}
+
+.demo-form textarea {
+    height: 60px;
+    resize: none;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: right;
+    margin-bottom: 10px;
+}
+
+.checkbox-container input {
+    margin-right: 10px;
+}
+
+.checkbox-container label {
+    font-size: 12px;
+    color: #fff;
+}
+
+.checkbox-container a {
+    color: #ffb3b3;
+    text-decoration: none;
+}
+
+.demo-form button {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.demo-form button:hover {
+    background-color: #ff751a;
+}
+
+.demo-form input:focus, .demo-form select:focus, .demo-form textarea:focus {
+    outline: none;
+    border-color: #007ec8;
+}
+
+.demo-form button:focus {
+    outline: none;
+}
+
+.container {
+    max-width: 1190px;
+    margin:auto;
+    margin-left: 3vw;
+}
+.navbar-details {
+     margin-top: 5px;
+}
+.top-right{
+    font-size: 12px;
+    margin-left: 700px;
+}
+.top-right a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    display:inline-block;
+}
+.sign {
+    padding-left: 8px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    scroll-behavior: smooth;
+}
+    .top-right-links{
+        margin-top: 10px;
+        margin-right: 400px;
+        font-weight: 600;
+      }
+   .top-right-links a{
+       text-decoration: none;
+       text-transform: uppercase;
+       color: black;
+       padding: 10px;
+       font-size: 12px;
+       margin: -10px 0px 1px 2px;
+   } 
+
+
+   .a-button{
+       font-size: 11px !important;
+       margin-left: 5px;
+       padding: 9px 12px 8px !important;
+       font-weight: 200;
+       border-radius: 50px;
+       text-transform: capitalize !important;
+       background-color: #f78200;
+       color: white !important;
+   } 
+   .nav{
+       display: flex;
+       justify-content: flex-end;
+       margin-top: right;
+       padding-left: 200px;
+   } 
+
+   .img-fluid{
+       width: 111px;
+       height: 44px;
+   }
