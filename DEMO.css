@@ -94,6 +94,24 @@ h2 {
     outline: none;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    scroll-behavior: smooth;
+    margin: 0;
+   }
+
+/* navbar */
+
 .container {
     max-width: 1190px;
     margin:auto;
@@ -103,7 +121,8 @@ h2 {
      margin-top: 5px;
 }
 .top-right{
-    font-size: 12px;
+    font-size: 11px;
+    margin-top: 15px;
     margin-left: 700px;
 }
 .top-right a{
@@ -116,18 +135,9 @@ h2 {
     padding-left: 8px;
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    scroll-behavior: smooth;
-}
     .top-right-links{
         margin-top: 10px;
-        margin-right: 400px;
+        margin-left: 440px;
         font-weight: 600;
       }
    .top-right-links a{
@@ -152,9 +162,6 @@ body {
    } 
    .nav{
        display: flex;
-       justify-content: flex-end;
-       margin-top: right;
-       padding-left: 200px;
    } 
 
    .img-fluid{
